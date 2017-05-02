@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		63400AB41BD7362900CB0441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400AB31BD7362900CB0441 /* main.m */; };
 		63400AB71BD7362900CB0441 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400AB61BD7362900CB0441 /* AppDelegate.m */; };
-		63400ABA1BD7362900CB0441 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400AB91BD7362900CB0441 /* ViewController.m */; };
 		63400ABD1BD7362900CB0441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63400ABB1BD7362900CB0441 /* Main.storyboard */; };
 		63400AC01BD7362900CB0441 /* AppUIFrame1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63400ABE1BD7362900CB0441 /* AppUIFrame1.xcdatamodeld */; };
 		63400AC21BD7362900CB0441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63400AC11BD7362900CB0441 /* Assets.xcassets */; };
 		63400AC51BD7362900CB0441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63400AC31BD7362900CB0441 /* LaunchScreen.storyboard */; };
 		63400AD01BD7362900CB0441 /* AppUIFrame1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400ACF1BD7362900CB0441 /* AppUIFrame1Tests.m */; };
 		63400ADB1BD7362900CB0441 /* AppUIFrame1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400ADA1BD7362900CB0441 /* AppUIFrame1UITests.m */; };
+		63400AFA1BD737A700CB0441 /* DXDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400AF91BD737A700CB0441 /* DXDTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		63400AFD1BD7382000CB0441 /* DXDOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400AFC1BD7382000CB0441 /* DXDOneViewController.m */; settings = {ASSET_TAGS = (); }; };
+		63400B001BD7383500CB0441 /* DXDTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400AFF1BD7383500CB0441 /* DXDTwoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		63400B031BD7384F00CB0441 /* DXDThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400B021BD7384F00CB0441 /* DXDThreeViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,6 @@
 		63400AB31BD7362900CB0441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63400AB51BD7362900CB0441 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63400AB61BD7362900CB0441 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		63400AB81BD7362900CB0441 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63400AB91BD7362900CB0441 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		63400ABC1BD7362900CB0441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63400ABF1BD7362900CB0441 /* AppUIFrame1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppUIFrame1.xcdatamodel; sourceTree = "<group>"; };
 		63400AC11BD7362900CB0441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +54,14 @@
 		63400AD61BD7362900CB0441 /* AppUIFrame1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUIFrame1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63400ADA1BD7362900CB0441 /* AppUIFrame1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppUIFrame1UITests.m; sourceTree = "<group>"; };
 		63400ADC1BD7362900CB0441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63400AF81BD737A700CB0441 /* DXDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXDTabBarController.h; sourceTree = "<group>"; };
+		63400AF91BD737A700CB0441 /* DXDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXDTabBarController.m; sourceTree = "<group>"; };
+		63400AFB1BD7382000CB0441 /* DXDOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXDOneViewController.h; sourceTree = "<group>"; };
+		63400AFC1BD7382000CB0441 /* DXDOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXDOneViewController.m; sourceTree = "<group>"; };
+		63400AFE1BD7383500CB0441 /* DXDTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXDTwoViewController.h; sourceTree = "<group>"; };
+		63400AFF1BD7383500CB0441 /* DXDTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXDTwoViewController.m; sourceTree = "<group>"; };
+		63400B011BD7384F00CB0441 /* DXDThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXDThreeViewController.h; sourceTree = "<group>"; };
+		63400B021BD7384F00CB0441 /* DXDThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXDThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +112,12 @@
 		63400AB11BD7362900CB0441 /* AppUIFrame1 */ = {
 			isa = PBXGroup;
 			children = (
+				63400AF41BD7372500CB0441 /* ThirdPage */,
+				63400AF01BD7370A00CB0441 /* SecondPage */,
+				63400AEC1BD736ED00CB0441 /* FirstPage */,
+				63400AE81BD736D500CB0441 /* Main */,
 				63400AB51BD7362900CB0441 /* AppDelegate.h */,
 				63400AB61BD7362900CB0441 /* AppDelegate.m */,
-				63400AB81BD7362900CB0441 /* ViewController.h */,
-				63400AB91BD7362900CB0441 /* ViewController.m */,
 				63400ABB1BD7362900CB0441 /* Main.storyboard */,
 				63400AC11BD7362900CB0441 /* Assets.xcassets */,
 				63400AC31BD7362900CB0441 /* LaunchScreen.storyboard */,
@@ -141,6 +152,150 @@
 				63400ADC1BD7362900CB0441 /* Info.plist */,
 			);
 			path = AppUIFrame1UITests;
+			sourceTree = "<group>";
+		};
+		63400AE81BD736D500CB0441 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				63400AE91BD736E400CB0441 /* Controller */,
+				63400AEA1BD736E400CB0441 /* Model */,
+				63400AEB1BD736E400CB0441 /* View */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		63400AE91BD736E400CB0441 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63400AF81BD737A700CB0441 /* DXDTabBarController.h */,
+				63400AF91BD737A700CB0441 /* DXDTabBarController.m */,
+			);
+			name = Controller;
+			path = Main/Controller;
+			sourceTree = "<group>";
+		};
+		63400AEA1BD736E400CB0441 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = Main/Model;
+			sourceTree = "<group>";
+		};
+		63400AEB1BD736E400CB0441 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = Main/View;
+			sourceTree = "<group>";
+		};
+		63400AEC1BD736ED00CB0441 /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				63400AED1BD7370500CB0441 /* Controller */,
+				63400AEE1BD7370500CB0441 /* Model */,
+				63400AEF1BD7370500CB0441 /* View */,
+			);
+			name = FirstPage;
+			sourceTree = "<group>";
+		};
+		63400AED1BD7370500CB0441 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63400AFB1BD7382000CB0441 /* DXDOneViewController.h */,
+				63400AFC1BD7382000CB0441 /* DXDOneViewController.m */,
+			);
+			name = Controller;
+			path = FirstPage/Controller;
+			sourceTree = "<group>";
+		};
+		63400AEE1BD7370500CB0441 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = FirstPage/Model;
+			sourceTree = "<group>";
+		};
+		63400AEF1BD7370500CB0441 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = FirstPage/View;
+			sourceTree = "<group>";
+		};
+		63400AF01BD7370A00CB0441 /* SecondPage */ = {
+			isa = PBXGroup;
+			children = (
+				63400AF11BD7371C00CB0441 /* Controller */,
+				63400AF21BD7371C00CB0441 /* Model */,
+				63400AF31BD7371C00CB0441 /* View */,
+			);
+			name = SecondPage;
+			sourceTree = "<group>";
+		};
+		63400AF11BD7371C00CB0441 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63400AFE1BD7383500CB0441 /* DXDTwoViewController.h */,
+				63400AFF1BD7383500CB0441 /* DXDTwoViewController.m */,
+			);
+			name = Controller;
+			path = SecondPage/Controller;
+			sourceTree = "<group>";
+		};
+		63400AF21BD7371C00CB0441 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = SecondPage/Model;
+			sourceTree = "<group>";
+		};
+		63400AF31BD7371C00CB0441 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = SecondPage/View;
+			sourceTree = "<group>";
+		};
+		63400AF41BD7372500CB0441 /* ThirdPage */ = {
+			isa = PBXGroup;
+			children = (
+				63400AF51BD7373D00CB0441 /* Controller */,
+				63400AF61BD7373D00CB0441 /* Model */,
+				63400AF71BD7373D00CB0441 /* View */,
+			);
+			name = ThirdPage;
+			sourceTree = "<group>";
+		};
+		63400AF51BD7373D00CB0441 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63400B011BD7384F00CB0441 /* DXDThreeViewController.h */,
+				63400B021BD7384F00CB0441 /* DXDThreeViewController.m */,
+			);
+			name = Controller;
+			path = ThirdPage/Controller;
+			sourceTree = "<group>";
+		};
+		63400AF61BD7373D00CB0441 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = ThirdPage/Model;
+			sourceTree = "<group>";
+		};
+		63400AF71BD7373D00CB0441 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = ThirdPage/View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,10 +431,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63400ABA1BD7362900CB0441 /* ViewController.m in Sources */,
+				63400AFA1BD737A700CB0441 /* DXDTabBarController.m in Sources */,
+				63400B031BD7384F00CB0441 /* DXDThreeViewController.m in Sources */,
+				63400AFD1BD7382000CB0441 /* DXDOneViewController.m in Sources */,
 				63400AB71BD7362900CB0441 /* AppDelegate.m in Sources */,
 				63400AB41BD7362900CB0441 /* main.m in Sources */,
 				63400AC01BD7362900CB0441 /* AppUIFrame1.xcdatamodeld in Sources */,
+				63400B001BD7383500CB0441 /* DXDTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

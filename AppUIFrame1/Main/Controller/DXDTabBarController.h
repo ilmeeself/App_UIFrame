@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DXDTabBarController.h
 //  AppUIFrame1
 //
 //  Created by ilmeeself on 15/10/21.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DXDTabBarController : UITabBarController
 
 @end
-
