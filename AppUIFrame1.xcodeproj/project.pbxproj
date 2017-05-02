@@ -15,10 +15,10 @@
 		63400AC51BD7362900CB0441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63400AC31BD7362900CB0441 /* LaunchScreen.storyboard */; };
 		63400AD01BD7362900CB0441 /* AppUIFrame1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400ACF1BD7362900CB0441 /* AppUIFrame1Tests.m */; };
 		63400ADB1BD7362900CB0441 /* AppUIFrame1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400ADA1BD7362900CB0441 /* AppUIFrame1UITests.m */; };
-		63400AFA1BD737A700CB0441 /* DXDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400AF91BD737A700CB0441 /* DXDTabBarController.m */; settings = {ASSET_TAGS = (); }; };
-		63400AFD1BD7382000CB0441 /* DXDOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400AFC1BD7382000CB0441 /* DXDOneViewController.m */; settings = {ASSET_TAGS = (); }; };
-		63400B001BD7383500CB0441 /* DXDTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400AFF1BD7383500CB0441 /* DXDTwoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		63400B031BD7384F00CB0441 /* DXDThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400B021BD7384F00CB0441 /* DXDThreeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		63400AFA1BD737A700CB0441 /* DXDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400AF91BD737A700CB0441 /* DXDTabBarController.m */; };
+		63400AFD1BD7382000CB0441 /* DXDOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400AFC1BD7382000CB0441 /* DXDOneViewController.m */; };
+		63400B001BD7383500CB0441 /* DXDTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400AFF1BD7383500CB0441 /* DXDTwoViewController.m */; };
+		63400B031BD7384F00CB0441 /* DXDThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63400B021BD7384F00CB0441 /* DXDThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -577,6 +577,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppUIFrame1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ilmeeself.AppUIFrame1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -588,6 +589,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppUIFrame1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ilmeeself.AppUIFrame1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -661,6 +663,7 @@
 				63400AE11BD7362900CB0441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63400AE21BD7362900CB0441 /* Build configuration list for PBXNativeTarget "AppUIFrame1Tests" */ = {
 			isa = XCConfigurationList;
@@ -669,6 +672,7 @@
 				63400AE41BD7362900CB0441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63400AE51BD7362900CB0441 /* Build configuration list for PBXNativeTarget "AppUIFrame1UITests" */ = {
 			isa = XCConfigurationList;
@@ -677,6 +681,7 @@
 				63400AE71BD7362900CB0441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
