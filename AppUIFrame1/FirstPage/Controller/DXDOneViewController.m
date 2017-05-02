@@ -21,6 +21,10 @@
     UILabel *lbl = [[UILabel alloc]initWithFrame:CGRectMake(10, 60, 150, 30)];
     lbl.text = @"这是第一页的内容";
     [self.view addSubview:lbl];
+    
+    UILabel *lbl1 = [[UILabel alloc]initWithFrame:CGRectMake(10, 80, 150, 30)];
+    lbl1.text = @"这是第一页的内容加载！";
+    [self.view addSubview:lbl1];
 }
 
 - (void)didReceiveMemoryWarning {
