@@ -158,8 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				63400AE91BD736E400CB0441 /* Controller */,
-				63400AEA1BD736E400CB0441 /* Model */,
-				63400AEB1BD736E400CB0441 /* View */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -174,28 +172,10 @@
 			path = Main/Controller;
 			sourceTree = "<group>";
 		};
-		63400AEA1BD736E400CB0441 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			path = Main/Model;
-			sourceTree = "<group>";
-		};
-		63400AEB1BD736E400CB0441 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			path = Main/View;
-			sourceTree = "<group>";
-		};
 		63400AEC1BD736ED00CB0441 /* FirstPage */ = {
 			isa = PBXGroup;
 			children = (
 				63400AED1BD7370500CB0441 /* Controller */,
-				63400AEE1BD7370500CB0441 /* Model */,
-				63400AEF1BD7370500CB0441 /* View */,
 			);
 			name = FirstPage;
 			sourceTree = "<group>";
@@ -210,28 +190,10 @@
 			path = FirstPage/Controller;
 			sourceTree = "<group>";
 		};
-		63400AEE1BD7370500CB0441 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			path = FirstPage/Model;
-			sourceTree = "<group>";
-		};
-		63400AEF1BD7370500CB0441 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			path = FirstPage/View;
-			sourceTree = "<group>";
-		};
 		63400AF01BD7370A00CB0441 /* SecondPage */ = {
 			isa = PBXGroup;
 			children = (
 				63400AF11BD7371C00CB0441 /* Controller */,
-				63400AF21BD7371C00CB0441 /* Model */,
-				63400AF31BD7371C00CB0441 /* View */,
 			);
 			name = SecondPage;
 			sourceTree = "<group>";
@@ -246,28 +208,10 @@
 			path = SecondPage/Controller;
 			sourceTree = "<group>";
 		};
-		63400AF21BD7371C00CB0441 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			path = SecondPage/Model;
-			sourceTree = "<group>";
-		};
-		63400AF31BD7371C00CB0441 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			path = SecondPage/View;
-			sourceTree = "<group>";
-		};
 		63400AF41BD7372500CB0441 /* ThirdPage */ = {
 			isa = PBXGroup;
 			children = (
 				63400AF51BD7373D00CB0441 /* Controller */,
-				63400AF61BD7373D00CB0441 /* Model */,
-				63400AF71BD7373D00CB0441 /* View */,
 			);
 			name = ThirdPage;
 			sourceTree = "<group>";
@@ -280,22 +224,6 @@
 			);
 			name = Controller;
 			path = ThirdPage/Controller;
-			sourceTree = "<group>";
-		};
-		63400AF61BD7373D00CB0441 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			path = ThirdPage/Model;
-			sourceTree = "<group>";
-		};
-		63400AF71BD7373D00CB0441 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			path = ThirdPage/View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
